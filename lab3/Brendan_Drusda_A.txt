@@ -1,0 +1,6 @@
+1. 14 13 12 11
+2. 0x10010002
+3. 11 12 13 14
+4. 11 is the most significant while 14 holds the greatest address
+5. Small-Endian is the practice of ordering the byte with the least weight first in the address.  Big-Endian places the most significant byte in the least address.
+6. Mars is small-Endian, as 1. shows.

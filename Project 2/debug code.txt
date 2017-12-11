@@ -1,0 +1,12 @@
+#debug code to check if the array has the values it needs
+li $t0, 0
+la $s0, tones
+loop:
+	beq $t0, 100, end
+	li $v0, 1
+	lb $a0, 0($s0)
+	syscall
+	addi $s0, $s0, 4
+	addi $t0, $t0, 1	
+j loop
+#debug code
